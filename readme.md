@@ -1,6 +1,6 @@
 # Standard States
 
-![Screenshot](standardStates_preview.png)
+![Screenshot](standardStates_preview.PNG)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
