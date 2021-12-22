@@ -1,4 +1,6 @@
-# Three.js Journey
+# Standard States
+
+![Screenshot](standardStates_preview.PNG)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
