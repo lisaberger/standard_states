@@ -10,9 +10,6 @@ import fluidVertexShader from "./shaders/fluid/vertex.glsl";
 import fluidFragmentShader from "./shaders/fluid/fragment.glsl";
 import gasVertexShader from "./shaders/gas/vertex.glsl";
 import gasFragmentShader from "./shaders/gas/fragment.glsl";
-import { Light } from "three";
-import { FlyControls } from 'three/examples/jsm/controls/FlyControls.js';
-import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonControls.js'
 
 
 // if ( WEBGL.isWebGL2Available() === false ) {
@@ -257,7 +254,7 @@ function animate() {
 
   // Update Gas Sphere
   mesh.material.uniforms.cameraPos.value.copy( camera.position );
-	mesh.rotation.y = - performance.now() / 7500;
+  mesh.rotation.y = - performance.now() / 7500;
   
 	mesh.material.uniforms.frame.value ++;
   
