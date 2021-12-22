@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: px;
+    font-family: 'Inter', sans-serif;
+    font-size: 5vmin;
+    margin: 3%;
+}
